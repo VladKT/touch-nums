@@ -1,0 +1,51 @@
+td {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: darkkhaki;
+}
+
+td:hover {
+    background-color: rebeccapurple;
+}
+
+.clicked{
+    background-color:green;
+}
+
+.main {
+    background-image: url(https://www.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/krang-136340.jpg);
+}
+
+.easy {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 2px crimson solid;
+    background-color: darkgoldenrod;
+    margin: 1px;
+    position: center;
+    display:inline;
+}
+
+.medium {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 2px crimson solid;
+    background-color: darkgoldenrod;
+    margin: 1px;
+    display:inline;
+}
+
+.hard {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 2px crimson solid;
+    background-color: darkgoldenrod;
+    margin: 1px;
+    display:inline;
+}

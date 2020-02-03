@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()">
+    <!-- class="container" -->
+    <div class="main">
+        <h2>Play this wonderful game or die!!!</h2>
+        <div class="timer">Timer: 0.00</div>
+        <!-- class="btn-container" -->
+        <div class="buttons">
+            <div class="easy" onclick="init(16)">Easy</div>
+            <div class="medium" onclick="init(25)">Medium</div>
+            <div class="hard" onclick="init(36)">Hard</div>
+        </div>
+        <div  class="board">
+            <table>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <input type="text" data-id="2">
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
